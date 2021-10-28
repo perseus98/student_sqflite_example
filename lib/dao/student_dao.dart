@@ -36,7 +36,7 @@ class StudentDao extends StudentDB {
       whereArgs: [studentModel.id],
     );
   }
-  static Future<void> deleteDog(int id) async {
+  static Future<void> delete(int id) async {
     final db = await StudentDB.database;
     await db.delete(
       StudentDB.studentTable,

@@ -17,7 +17,6 @@ class MyApp extends StatelessWidget {
       routes: {
         ScreenRoutes.homeRoute : (context) => HomeScreen(),
         ScreenRoutes.addRoute : (context) => AddScreen(),
-        ScreenRoutes.updateRoute : (context) => UpdateScreen(),
       },
     );
   }
